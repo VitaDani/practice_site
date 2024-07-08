@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "Times New Roman", Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+}
+
+.header {
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.header_name {
+    margin-right: auto;
+}
+
+.header_links {
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.sign_up {
+    background-color: #1f2937;
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+}
+
+.hero_header {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero_text {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.chuck1 {
+    width: 350px;
+    margin-left: auto;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
