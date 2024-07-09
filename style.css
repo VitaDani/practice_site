@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
-    font-family: "Times New Roman", Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -9,6 +9,10 @@ body {
 button {
     background-color: #3882f6;
     color: white;
+    border: none;
+    border-radius: 8px;
+    width: 100px;
+    height: 35px;
 }
 
 .header {
@@ -37,7 +41,7 @@ button {
     background-color: #1f2937;
     display: flex;
     gap: 20px;
-    padding: 40px;
+    padding: 60px;
 }
 
 .hero_header {
@@ -56,6 +60,50 @@ button {
     margin-left: auto;
 }
 
+.random_info {
+    color: #1f2937;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+}
+
+.random_pics {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.pic_and_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.random_single_pic {
+    border: 3px solid #3882f6;
+    border-radius: 16px;
+    width: 150px;
+    aspect-ratio: 4/3;
+}
+
+.quote_block {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    padding: 75px;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 36px;
+}
+
+.quote_attribution {
+    font-size: 20px;
+    align-self: flex-end;
+}
+
 .footer {
     background-color: #1f2937;
     color: #f9faf8;
@@ -63,4 +111,5 @@ button {
     justify-content: center;
     align-items: center;
     padding: 20px;
+    margin: 0;
 }
