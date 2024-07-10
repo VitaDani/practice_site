@@ -72,12 +72,17 @@ button {
     display: flex;
     justify-content: center;
     padding: 40px;
+    gap: 15px;
 }
 
 .pic_and_text {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.pic_and_text > p {
+    text-align: center;
 }
 
 .random_single_pic {
