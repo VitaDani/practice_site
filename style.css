@@ -12,7 +12,7 @@ button {
     border: none;
     border-radius: 8px;
     width: 100px;
-    height: 35px;
+    height: 30px;
 }
 
 .header {
@@ -56,8 +56,9 @@ button {
 }
 
 .chuck1 {
-    width: 350px;
-    margin-left: auto;
+    border:2px solid #e5e7eb;
+    border-radius: 16px;
+    width: 300px;
 }
 
 .random_info {
@@ -82,8 +83,9 @@ button {
 .random_single_pic {
     border: 3px solid #3882f6;
     border-radius: 16px;
-    width: 150px;
-    aspect-ratio: 4/3;
+    width: 175px;
+    height: 150px;
+    object-fit: cover;
 }
 
 .quote_block {
@@ -102,6 +104,28 @@ button {
 .quote_attribution {
     font-size: 20px;
     align-self: flex-end;
+}
+
+.call_to_action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 75px;
+}
+
+.call_to_action_box {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    padding: 20px;
+}
+
+button.call_to_action_button {
+    border: 1px solid white;
 }
 
 .footer {
